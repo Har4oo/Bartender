@@ -42,6 +42,7 @@ namespace Bartender
 
                 randomlyGivenCocktail = cocktails[rnd.Next(cocktails.Length)];
             }
+            this.Name = randomlyGivenCocktail;
             return randomlyGivenCocktail;
         }
     }

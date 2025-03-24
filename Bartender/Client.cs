@@ -11,6 +11,15 @@ namespace Bartender
         private string name;
         private Cocktail cocktail;
 
+        public Client() {
+        }
 
+        public Client(string name, Cocktail cocktail) {
+            this.Name = name;
+            this.Cocktail = cocktail;
+        }
+
+        public string Name { get => name; set => name = value; }
+        internal Cocktail Cocktail { get => cocktail; set => cocktail = value; }
     }
 }

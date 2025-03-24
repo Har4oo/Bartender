@@ -22,6 +22,15 @@ namespace Bartender
             Cocktail cocktail = new Cocktail();
 
             cocktail.assignCocktail();
+
+            Client client = new Client();
+
+            client.Name = "Gosho";
+            client.Cocktail = cocktail;
+
+            richTextBox1.AppendText(client.Name + " : " + client.Cocktail.Name + "\n");
+            
+            
         }
     }
 }
