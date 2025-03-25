@@ -1,26 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\development\\visual-studio-projects\\git\\Bartender\\",
+  "WorkspaceRootPath": "D:\\development\\cs\\git\\Bartender\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|e:\\development\\visual-studio-projects\\git\\bartender\\bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|E:\\development\\visual-studio-projects\\git\\Bartender\\bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|D:\\development\\cs\\git\\Bartender\\bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|E:\\development\\visual-studio-projects\\git\\Bartender\\bartender\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|d:\\development\\cs\\git\\bartender\\bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|D:\\development\\cs\\git\\Bartender\\bartender\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|E:\\development\\visual-studio-projects\\git\\Bartender\\bartender\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|D:\\development\\cs\\git\\Bartender\\bartender\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|E:\\development\\visual-studio-projects\\git\\Bartender\\bartender\\ten_random_cocktails.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\ten_random_cocktails.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\ten_random_cocktails.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,16 +29,14 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ten_random_cocktails.txt",
               "DocumentMoniker": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\ten_random_cocktails.txt",
-              "RelativeDocumentMoniker": "Bartender\\ten_random_cocktails.txt",
               "ToolTip": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\ten_random_cocktails.txt",
-              "RelativeToolTip": "Bartender\\ten_random_cocktails.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-03-24T08:04:45.924Z"
@@ -48,11 +45,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Client.cs",
-              "DocumentMoniker": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Client.cs",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Client.cs",
               "RelativeDocumentMoniker": "Bartender\\Client.cs",
-              "ToolTip": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Client.cs",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Client.cs",
               "RelativeToolTip": "Bartender\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:06:26.361Z",
               "EditorCaption": ""
@@ -61,35 +58,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Cocktail.cs",
-              "DocumentMoniker": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Cocktail.cs",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Cocktail.cs",
               "RelativeDocumentMoniker": "Bartender\\Cocktail.cs",
-              "ToolTip": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Cocktail.cs",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Cocktail.cs",
               "RelativeToolTip": "Bartender\\Cocktail.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwB8AAAAMAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:06:13.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Form1.cs",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs",
               "RelativeDocumentMoniker": "Bartender\\Form1.cs",
-              "ToolTip": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Form1.cs",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs",
               "RelativeToolTip": "Bartender\\Form1.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowB4AAABUAAAAAAAAAA==",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:05:14.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Form1.cs",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs",
               "RelativeDocumentMoniker": "Bartender\\Form1.cs",
-              "ToolTip": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\Form1.cs [Design]",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs [Design]",
               "RelativeToolTip": "Bartender\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:03:34.766Z",

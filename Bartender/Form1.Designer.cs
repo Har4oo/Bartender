@@ -36,15 +36,16 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(93, 103);
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(56, 137);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(240, 182);
+            this.richTextBox1.Size = new System.Drawing.Size(307, 182);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(101, 27);
+            this.button1.Location = new System.Drawing.Point(99, 40);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 70);
             this.button1.TabIndex = 1;
@@ -54,7 +55,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(214, 27);
+            this.button2.Location = new System.Drawing.Point(212, 40);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 70);
             this.button2.TabIndex = 2;
@@ -63,9 +64,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(161, 291);
+            this.button3.Location = new System.Drawing.Point(325, 379);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 70);
+            this.button3.Size = new System.Drawing.Size(92, 39);
             this.button3.TabIndex = 3;
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = true;

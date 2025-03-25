@@ -19,18 +19,25 @@ namespace Bartender
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cocktail cocktail = new Cocktail();
+            if (richTextBox1.Lines.Count() < 6)
+            {
+                Cocktail cocktail = new Cocktail();
 
-            cocktail.assignCocktail();
+                cocktail.assignCocktail();
 
-            Client client = new Client();
+                Client client = new Client();
 
-            client.Name = "Gosho";
-            client.Cocktail = cocktail;
+                client.assignRandomName();
 
-            richTextBox1.AppendText(client.Name + " : " + client.Cocktail.Name + "\n");
-            
-            
+                client.Cocktail = cocktail;
+
+                richTextBox1.AppendText(client.Name + " : " + client.Cocktail.Name + "\n");
+
+            }
+            else
+            {
+                button1.Enabled = false;
+            }
         }
     }
 }

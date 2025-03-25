@@ -8,3 +8,13 @@ E:\development\visual-studio-projects\git\Bartender\Bartender\obj\Debug\Bartende
 E:\development\visual-studio-projects\git\Bartender\Bartender\obj\Debug\Bartender.csproj.CoreCompileInputs.cache
 E:\development\visual-studio-projects\git\Bartender\Bartender\obj\Debug\Bartender.exe
 E:\development\visual-studio-projects\git\Bartender\Bartender\obj\Debug\Bartender.pdb
+D:\development\cs\git\Bartender\Bartender\bin\Debug\Bartender.exe.config
+D:\development\cs\git\Bartender\Bartender\bin\Debug\Bartender.exe
+D:\development\cs\git\Bartender\Bartender\bin\Debug\Bartender.pdb
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.csproj.AssemblyReference.cache
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.Form1.resources
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.Properties.Resources.resources
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.csproj.GenerateResource.cache
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.csproj.CoreCompileInputs.cache
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.exe
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.pdb
