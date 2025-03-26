@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\development\\cs\\git\\Bartender\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|D:\\development\\cs\\git\\Bartender\\bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|d:\\development\\cs\\git\\bartender\\bartender\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|d:\\development\\cs\\git\\bartender\\bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|d:\\development\\cs\\git\\bartender\\bartender\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|d:\\development\\cs\\git\\bartender\\bartender\\prepare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|solutionrelative:bartender\\prepare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55E9692E-D037-4F5A-9A77-4041E2D17678}|Bartender\\Bartender.csproj|D:\\development\\cs\\git\\Bartender\\bartender\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,11 +33,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Prepare.cs [Design]",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Prepare.cs",
+              "RelativeDocumentMoniker": "Bartender\\Prepare.cs",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Prepare.cs [Design]",
+              "RelativeToolTip": "Bartender\\Prepare.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:51:32.475Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ten_random_cocktails.txt",
               "DocumentMoniker": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\ten_random_cocktails.txt",
               "ToolTip": "E:\\development\\visual-studio-projects\\git\\Bartender\\Bartender\\ten_random_cocktails.txt",
@@ -43,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Client.cs",
               "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Client.cs",
               "RelativeDocumentMoniker": "Bartender\\Client.cs",
@@ -51,12 +67,11 @@
               "RelativeToolTip": "Bartender\\Client.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAowCkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:06:26.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T10:06:26.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cocktail.cs",
               "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Cocktail.cs",
               "RelativeDocumentMoniker": "Bartender\\Cocktail.cs",
@@ -70,12 +85,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs",
-              "RelativeDocumentMoniker": "Bartender\\Form1.cs",
-              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs",
-              "RelativeToolTip": "Bartender\\Form1.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAuAAAA",
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Main.cs",
+              "RelativeDocumentMoniker": "Bartender\\Main.cs",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Main.cs",
+              "RelativeToolTip": "Bartender\\Main.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:05:14.357Z",
               "EditorCaption": ""
@@ -83,11 +98,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs",
-              "RelativeDocumentMoniker": "Bartender\\Form1.cs",
-              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Form1.cs [Design]",
-              "RelativeToolTip": "Bartender\\Form1.cs [Design]",
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\development\\cs\\git\\Bartender\\Bartender\\Main.cs",
+              "RelativeDocumentMoniker": "Bartender\\Main.cs",
+              "ToolTip": "D:\\development\\cs\\git\\Bartender\\Bartender\\Main.cs [Design]",
+              "RelativeToolTip": "Bartender\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:03:34.766Z",
               "EditorCaption": " [Design]"

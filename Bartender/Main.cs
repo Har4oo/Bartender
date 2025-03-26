@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace Bartender
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        private Queue<Client> clients = new Queue<Client>();
+        public Main()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.Lines.Count() < 6)
+            if (!(clients.Count > 4))
             {
                 Cocktail cocktail = new Cocktail();
 
@@ -33,11 +34,21 @@ namespace Bartender
 
                 richTextBox1.AppendText(client.Name + " : " + client.Cocktail.Name + "\n");
 
+                clients.Enqueue(client);
+
             }
             else
             {
+                label1.Text = "Prepare cocktails \nbefore inviting more clients";
                 button1.Enabled = false;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Prepare prepare = new Prepare();
+
+            prepare.Show();
         }
     }
 }
