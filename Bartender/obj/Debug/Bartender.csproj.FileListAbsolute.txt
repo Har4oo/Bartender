@@ -18,3 +18,4 @@ D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.csproj.CoreCompile
 D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.exe
 D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.pdb
 D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.Main.resources
+D:\development\cs\git\Bartender\Bartender\obj\Debug\Bartender.Prepare.resources

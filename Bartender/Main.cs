@@ -34,7 +34,11 @@ namespace Bartender
 
                 richTextBox1.AppendText(client.Name + " : " + client.Cocktail.Name + "\n");
 
+                richTextBox1.SelectAll();
+                richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+
                 clients.Enqueue(client);
+                label1.Text = client.Name+" ordered "+client.Cocktail.Name;
 
             }
             else

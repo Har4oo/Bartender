@@ -45,5 +45,14 @@ namespace Bartender
             this.Name = randomlyGivenCocktail;
             return randomlyGivenCocktail;
         }
+        public ArrayList assignCocktailIngredients()
+        {
+            if (this.name.Equals("Mojito"))
+            {
+                this.ingredients = new ArrayList();
+                ingredients.Add("");
+            }
+            return ingredients;
+        }
     }
 }
