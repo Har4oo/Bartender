@@ -12,9 +12,12 @@ namespace Bartender
 {
     public partial class Prepare : Form
     {
-        public Prepare()
+        private Client client;
+        public Prepare(Client client)
         {
             InitializeComponent();
+            this.client = client;
+            label1.Text = "You are preparing for " + client.Name;
         }
 
         private void button1_Click(object sender, EventArgs e)

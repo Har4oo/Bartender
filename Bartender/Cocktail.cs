@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Bartender
 {
-    internal class Cocktail
+    public class Cocktail
     {
 
         private string name;

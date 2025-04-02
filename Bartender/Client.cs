@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bartender
 {
-    internal class Client
+    public class Client
     {
         private string name;
         private Cocktail cocktail;
@@ -41,5 +41,6 @@ namespace Bartender
             this.Name = randomlyGivenName;
             return randomlyGivenName;
         }
+        
     }
 }

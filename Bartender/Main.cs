@@ -12,6 +12,7 @@ namespace Bartender
 {
     public partial class Main : Form
     {
+        private Client client;
         private Queue<Client> clients = new Queue<Client>();
         public Main()
         {
@@ -26,7 +27,7 @@ namespace Bartender
 
                 cocktail.assignCocktail();
 
-                Client client = new Client();
+                client = new Client();
 
                 client.assignRandomName();
 
@@ -40,6 +41,7 @@ namespace Bartender
                 clients.Enqueue(client);
                 label1.Text = client.Name+" ordered "+client.Cocktail.Name;
 
+                
             }
             else
             {
@@ -50,9 +52,13 @@ namespace Bartender
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Prepare prepare = new Prepare();
+            Prepare prepare = new Prepare(client);
 
             prepare.Show();
+        }
+        public static Client returnClientInfo(Client client)
+        {
+            return client;
         }
     }
 }
