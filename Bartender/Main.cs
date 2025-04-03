@@ -52,7 +52,7 @@ namespace Bartender
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Prepare prepare = new Prepare(client);
+            Prepare prepare = new Prepare(clients.Peek());
 
             prepare.Show();
         }

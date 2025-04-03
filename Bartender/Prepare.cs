@@ -17,7 +17,7 @@ namespace Bartender
         {
             InitializeComponent();
             this.client = client;
-            label1.Text = "You are preparing for " + client.Name;
+            label1.Text = "You are preparing for \n" + client.Name;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,6 +62,10 @@ namespace Bartender
 
         private void button9_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void Prepare_Load(object sender, EventArgs e) {
 
         }
     }
