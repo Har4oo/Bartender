@@ -39,26 +39,34 @@ namespace Bartender
                 richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
 
                 clients.Enqueue(client);
-                label1.Text = client.Name+" ordered "+client.Cocktail.Name;
+                label1.Text = client.Name+" ordered \n"+client.Cocktail.Name;
 
-                
+                client.Cocktail.assignCocktailIngredients();
             }
             else
             {
-                label1.Text = "Prepare cocktails \nbefore inviting more clients";
+                label1.Text = "Prepare cocktails \nbefore \ninviting more clients";
                 button1.Enabled = false;
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Prepare prepare = new Prepare(clients.Peek());
+            if (clients.Count <= 0) {
+                label1.Text = "Invite some clients";
+            } else {
+                Prepare prepare = new Prepare(clients.Peek());
 
-            prepare.Show();
+                prepare.Show();
+            }
         }
         public static Client returnClientInfo(Client client)
         {
             return client;
+        }
+
+        private void button3_Click(object sender, EventArgs e) {
+            this.Close();
         }
     }
 }
