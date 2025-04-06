@@ -16,8 +16,15 @@ namespace Bartender
         public Prepare(Client client)
         {
             InitializeComponent();
+
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.FlatAppearance.BorderColor = Color.FromArgb(247, 55, 79);
+            button9.FlatAppearance.BorderSize = 2;
+
             this.client = client;
             label1.Text = "You are preparing for \n" + client.Name;
+            label3.Text = "Who wants \n"+client.Cocktail.Name;
+            label4.Text = "Ingredients: " + client.Cocktail.Ingredients.ToString();
         }
 
         private void AddVodka(object sender, EventArgs e)
@@ -62,10 +69,6 @@ namespace Bartender
 
         private void Exit(object sender, EventArgs e)
         {
-
-        }
-
-        private void Prepare_Load(object sender, EventArgs e) {
 
         }
 
@@ -143,6 +146,10 @@ namespace Bartender
         private void button7_MouseHover(object sender, EventArgs e) {
             Refresh();
             label2.Text = "Ice";
+        }
+
+        private void label3_Click(object sender, EventArgs e) {
+
         }
     }
 }

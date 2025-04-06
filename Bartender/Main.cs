@@ -17,6 +17,17 @@ namespace Bartender
         public Main()
         {
             InitializeComponent();
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderColor = Color.FromArgb(247, 55, 79);
+            button1.FlatAppearance.BorderSize = 2;
+
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.FlatAppearance.BorderColor = Color.FromArgb(247, 55, 79);
+            button2.FlatAppearance.BorderSize = 2;
+
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderColor = Color.FromArgb(247, 55, 79);
+            button3.FlatAppearance.BorderSize = 2;
         }
 
         private void button1_Click(object sender, EventArgs e)

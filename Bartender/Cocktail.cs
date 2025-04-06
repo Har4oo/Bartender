@@ -102,5 +102,8 @@ namespace Bartender {
             }
             return ingredients;
         }
+        public override string ToString() {
+            return String.Format("%s",ingredients);
+        }
     }
 }
