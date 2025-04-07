@@ -14,7 +14,11 @@ namespace Bartender
     {
         private Client client;
         private Queue<Client> clients = new Queue<Client>();
-        public Main()
+        public Main() : this(new Queue<Client>())
+        {
+            
+        }
+        public Main(Queue<Client> clients)
         {
             InitializeComponent();
             button1.FlatStyle = FlatStyle.Flat;
@@ -28,6 +32,18 @@ namespace Bartender
             button3.FlatStyle = FlatStyle.Flat;
             button3.FlatAppearance.BorderColor = Color.FromArgb(247, 55, 79);
             button3.FlatAppearance.BorderSize = 2;
+            this.clients = clients;
+
+            InitializeFromPreviousSession(clients);
+        }
+        private void InitializeFromPreviousSession(Queue<Client> clients)
+        {
+            foreach(Client client in clients)
+            {
+                richTextBox1.AppendText(client.Name + " : " + client.Cocktail.Name + "\n");
+                richTextBox1.SelectAll();
+                richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,9 +82,10 @@ namespace Bartender
             if (clients.Count <= 0) {
                 label1.Text = "Invite some clients";
             } else {
-                Prepare prepare = new Prepare(clients.Peek());
+                Prepare prepare = new Prepare(clients.Peek(), clients);
 
                 prepare.Show();
+                this.Hide();
             }
         }
         public static Client returnClientInfo(Client client)
@@ -76,8 +93,13 @@ namespace Bartender
             return client;
         }
 
-        private void button3_Click(object sender, EventArgs e) {
+        private void button3_Click(object sender, EventArgs e)  {
             this.Close();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

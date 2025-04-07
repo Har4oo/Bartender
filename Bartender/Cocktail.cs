@@ -80,7 +80,7 @@ namespace Bartender {
                 this.ingredients = new ArrayList();
                 ingredients.Add("Vodka");
                 ingredients.Add("Rum");
-                ingredients.Add("Tequla");
+                ingredients.Add("Tequila");
                 ingredients.Add("Gin");
                 ingredients.Add("Lemon");
                 ingredients.Add("Club Soda");
@@ -99,11 +99,20 @@ namespace Bartender {
                 ingredients.Add("Club Soda");
                 ingredients.Add("Ice");
                 ingredients.Add("Lemon");
+            }else if (this.name.Equals("German Vacation")) {
+                this.ingredients = new ArrayList();
+                ingredients.Add("Rum");
+                ingredients.Add("Club Soda");
+                ingredients.Add("Ice");
+                ingredients.Add("Lemon");
+            } else if (this.name.Equals("Cuba Libre")){
+                this.ingredients = new ArrayList();
+                ingredients.Add("Rum");
+                ingredients.Add("Club Soda");
+                ingredients.Add("Ice");
+                ingredients.Add("Lemon");
             }
             return ingredients;
-        }
-        public override string ToString() {
-            return String.Format("%s",ingredients);
         }
     }
 }
